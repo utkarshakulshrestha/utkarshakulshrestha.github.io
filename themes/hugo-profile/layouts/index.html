@@ -2,6 +2,9 @@
 <meta name="description" content={{ .Site.Params.description }}>
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/index.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/projects.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/las.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/volunteering.css" media="all">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/certifications.css" media="all">
 
 <!-- fontawesome -->
 <script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
@@ -20,5 +23,6 @@
 {{- partial "sections/las.html" . -}}
 {{- partial "sections/volunteering.html" . -}}
 {{- partial "sections/achievements.html" . -}}
+{{- partial "sections/certifications.html" . -}}
 {{- partial "sections/contact.html" . -}}
 {{ end }}
