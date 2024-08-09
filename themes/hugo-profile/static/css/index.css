@@ -106,6 +106,7 @@ header .navbar.animate {
     margin: 20px 0px 0px;
     max-width: 640px;
     opacity: 0.8;
+    text-align: justify;  /* Align the entire paragraph (justify text) */
 }
 
 #hero .image img {

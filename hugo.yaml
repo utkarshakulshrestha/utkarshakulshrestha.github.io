@@ -1,6 +1,6 @@
 baseURL: "https://utkarshakulshrestha.github.io"
 languageCode: "en-us"
-title: "Utkarsha Kul"
+title: "Utkarsha Kulshrestha"
 theme: hugo-profile
 
 outputs:
@@ -53,10 +53,10 @@ markup:
     #   weight: 2
 
 params:
-#   title: "Utkarsha Kulshrestha"
-#   description: Utkarsha's Portfolio
-#   # staticPath: ""  # The path to serve the static files from
-#   favicon: "/images/Aboutme.png"
+  title: "Utkarsha Kulshrestha"
+  description: Utkarsha's Portfolio
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/images/fav.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -75,8 +75,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
 
   font:
     fontSize: 1rem # default: 1rem
@@ -130,7 +130,7 @@ params:
     intro: "Hey there! I'm"
     title: "Utkarsha Kulshrestha"
     subtitle: "Youngest Senior Consultant at Ernst & Young"
-    content: "A multi-skilled, result-oriented professional with a good track record of managing multiple projects under strict timelines and branding constraints. I'm more than just a Technical Consultant; I have entrepreneurial ambitions and a profound enthusiasm for technology and startups. I see technology as a powerful force for positive change and my role in it extends beyond coding. I aim to contribute to the dynamic tech landscape, push the limits of innovation, and help shape the future."
+    content: "A multi-skilled, result-oriented professional with a good track record of managing multiple projects under strict timelines and branding constraints. I’m more than just a Technical Consultant, I have entrepreneurial ambitions and a profound enthusiasm for technology and startups. I see technology as a powerful force for positive change and my role in it extends beyond coding. I aim to contribute to the dynamic tech landscape, push the limits of innovation, and help shape the future."
     image: /images/FinUk.png
     bottomImage:
       enable: true
@@ -159,9 +159,11 @@ params:
     title: "About Me"
     image: /images/Aboutme.png
     content: |-
-      I am a Techical Senior Consultant with a passion for Automation & Business. I have a background in computer science and engineering, and I have a strong interest in the intersection of technology and management. I am currently working as a Senior Consultant at EY in Gurugram, India.
+      I am a Technical Senior Consultant with a passion for Automation & Business. My background in computer science and engineering has fueled a strong interest in the intersection of technology and management.
 
-      I am currently working on a project that will be used to help people to mitigate the risk in Power & Utilities sector.
+      
+      I am currently leading a project designed to help mitigate risks in the Power & Utilities sector.
+
     skills:
       enable: true
       title: "Technical Skills"
@@ -171,7 +173,7 @@ params:
         - "GenAI"
         - "SAP Automation"
         - "UiPath"
-        - "TRicentis Tosca"
+        - "Tricentis Tosca"
         - "Selenium"
         - "Figma"
         - "Canva"
@@ -201,7 +203,7 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Senior Consulant"
+      - job: "Senior Consultant"
         company: "EY"
         companyUrl: "https://www.ey.com/en_gl/services/consulting"
         date: "Jul 2024 - present"
@@ -209,7 +211,7 @@ params:
           enable: false
           name: "About EY"
           url: "https://www.ey.com/en_gl/services/consulting"
-        content: "I am currently working as a senior consultant at EY in Gurugram, India. I am currently working on a project that will be used to help people to mitigate the risk in Power & Utilities sector."
+        content: "I am currently working as a senior consultant at EY in Gurugram, India. I am currently working on a project that will be used to help people mitigate the risk in the Power & Utilities sector."
 
       - job: "Consultant-1"
         company: "EY"
@@ -237,7 +239,7 @@ params:
             (Jan 2021 - Jan 2022)
 
            - Developed an automation testing product with Java, Selenium, and reporting tools. Led POC initiatives, created go-to-market strategies, improved operational efficiency, established test governance, and secured major projects.
-           - Applied SDLC, STLC methodologies achieving 98\% defect-free rate in SAP GUI and web application deliverables.
+           - Applied SDLC, and STLC methodologies achieving a 98% defect-free rate in SAP GUI and web application deliverables.
 
       # - job: "Associate Consultant 2"
       #   company: "EY"
@@ -275,7 +277,7 @@ params:
         companyUrl: "https://www.isro.gov.in/"
         date: "Jan 2020 - May 2020"
         content: |
-          - Integrated open-source GPS API written in Python with IRNSS to optimize satellite tracking algorithm.
+          - Integrated open-source GPS API is written in Python with IRNSS to optimize the satellite tracking algorithm.
 
           - Developed interactive data logging interface with Qt5 in C++ and Python for live monitoring satellite data.
 
@@ -316,10 +318,10 @@ params:
       #   date: "2013 - 2015"
       #   GPA: "3.8 out of 5.0"
       #   content: |-
-      #     Extracurricular Activities
-      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          # Extracurricular Activities
+          #   - Lorem ipsum dolor sit amet consectetur adipisicing elit.
       #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Technology in Computer Science"
+      - title: "Bachelor of Technology in Computer Science & Engineering"
         school:
           name: "JECRC University"
           url: "https://jecrcuniversity.edu.in/"
@@ -328,9 +330,8 @@ params:
         content: |-
           Courses: Data Structure & Algorithms, Discrete Mathematics, Digital Systems & Artificial Intelligence
         # - Received Merit Based Scholarship
-
-        # **(Student Placement Head)**
-        # -  Led a team of 30-40 placement coordinators and volunteers to arrange campus recruitment activities.
+        # Student Placement Head:
+        # - Led a team of 30-40 placement coordinators and volunteers to arrange campus recruitment activities.
 
 
       # - title: Student Placement Head JECRC
@@ -363,7 +364,7 @@ params:
     # title: "Custom Name"
     items:
       - title: EY GDS
-        content: EY GDS Consulting Superstar Award 2024 among 50k employee.
+        content: EY GDS Consulting Superstar Award 2024 among 50k employees.
         # url: https://example.com
         image: /images/Utkarsha-Super Star.jpeg
       - title: EY GDS
@@ -376,9 +377,10 @@ params:
       - title: EY GDS
         content: Invited as a jury member for ITL Public School's EY's STEM App Pilot Project.
         image: /images/ITL1.jpg
+        url: https://x.com/ItlSchool/status/1544519646409150469
       - title: Microsoft Student Partner
         content: Organized largest Microsoft Diversity events with Directors and Executives, led workshops, and trained 2000+ students.
-        url: https://jecrcuniversity.edu.in/naac2020/Criteria%203/3.6.3%20and%203.6.4/144Microsoft%20diversity%20camp%202017-2018.pdf
+        url: https://jecrcuniversity.edu.in/gallery/microsoft-for-imagine-camp/
         image: /images/event.jpg
       - title: Microsoft Student Partner
         content: Core Team Member, Imagine Cup 2018; an opportunity to represent India internationally, sponsored by Microsoft.
@@ -403,7 +405,7 @@ params:
     # title: "Custom Name"
     items:
       - title: ISTQB
-        content: International Software Testing Qualifications Board.
+        content: International Software Testing Qualifications Board
         # url: https://example.com
         image: /images/ISTQB1.png
       - title: Tricentis TOSCA
@@ -463,7 +465,7 @@ params:
 
       - title: Smart Motion
         content: |
-           Built wireless home automation system for motion detection, integrating Node-MCU and Arduino UNO over MQTT wireless protocol.
+           Built a wireless home automation system for motion detection, integrating Node-MCU and Arduino UNO over MQTT wireless protocol.
            Collected motion data and trained a K-Means classifier for anomaly detection in night-time periods.
         image: /images/pngwing.com.png
         featured:
@@ -483,8 +485,9 @@ params:
 
       - title: Logistic Regression on MNIST using Microsoft Azure SDK
         content: |
-             Developed a digit classifier using a logistic regression model trained on MNIST dataset, trained and deployed the package on cloud using Azure ML Python SDK. 
-             Improved the classifier with data augmentation techniques applying rotate, shift, transform on images to improve by 6% over baseline.
+             Developed a digit classifier using a logistic regression model trained on the MNIST dataset, trained and deployed the package on the cloud using Azure ML Python SDK. 
+             Improved the classifier with data augmentation techniques by applying rotate, shift, and transform on images to improve by 6% over baseline.
+
         image: /images/Microsoft-Azure-Logo.png
         featured:
           name:  Microsoft Azure SDK
@@ -588,14 +591,14 @@ params:
         #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2
 
       - title: Charity & Services for Community kitchen
-        content: Engaged in active volunteering at ‘Shreeyog Foundation’, organizing feeding drives for underprivileged communities.
+        content: Engaged in active volunteering at the ‘Shreeyog Foundation’, organizing feeding drives for underprivileged communities.
         image: /images/Ck.jpg
         featured:
           name: Shreeyog Foundation
           link: https://www.facebook.com/shreeyogtrustofficial/
 
       - title: EY Purpose Intiative
-        content: Engaged in social services with EY GDS and purpose initiative
+        content: Engaged in social services with EY GDS and purpose initiative.
         image: /images/AS copy.png
         featured:
           name: EY Purpose Intiative

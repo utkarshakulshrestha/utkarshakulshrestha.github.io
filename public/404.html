@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width">
-<link rel="icon" href=/fav.png type="image/gif">
+<link rel="icon" href=/images/fav.png type="image/gif">
 
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,14 +32,16 @@
 
 
 <meta property="og:url" content="https://utkarshakulshrestha.github.io/404.html">
-  <meta property="og:site_name" content="Utkarsha Kul">
+  <meta property="og:site_name" content="Utkarsha Kulshrestha">
   <meta property="og:title" content="404 Page not found">
+  <meta property="og:description" content="Utkarsha&#39;s Portfolio">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="404 Page not found">
+  <meta name="twitter:description" content="Utkarsha&#39;s Portfolio">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -101,14 +103,14 @@
 
 
 
-<meta name="description" content=ZgotmplZ>
+<meta name="description" content=Utkarsha&#39;s&#32;Portfolio>
 
 
   
   
 
   <title>
-Utkarsha Kul | Page not found
+Utkarsha Kulshrestha | Page not found
 
   </title>
 </head>
@@ -169,6 +171,8 @@ Utkarsha Kul | Page not found
             
             <a class="navbar-brand primary-font text-wrap" href="/">
                 
+                <img src="/images/fav.png" width="30" height="30"
+                    class="d-inline-block align-top">
                 Homepage
                 
             </a>
@@ -373,6 +377,13 @@ Utkarsha Kul | Page not found
     <div class="row justify-content-center">
         <div class="col-md-4 text-center">
             
+                <div class="pb-2">
+                    <a href="https://utkarshakulshrestha.github.io/" title="Utkarsha Kulshrestha">
+                        <img alt="Footer logo" src="/images/fav.png"
+                            height="40px" width="40px">
+                    </a>
+                </div>
+            
             &copy; 2024  All rights reserved
             
         </div>
@@ -380,15 +391,13 @@ Utkarsha Kul | Page not found
 </div>
 </footer><script src="/bootstrap-5/js/bootstrap.bundle.min.js"></script>
 <script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
+    if (document.body.className.includes("dark")) {
+        document.body.classList.remove('dark');
+        localStorage.setItem("pref-theme", 'light');
     }
-
 </script>
+
+
 <script>
     document.getElementById("theme-toggle").addEventListener("click", () => {
         if (document.body.className.includes("dark")) {
