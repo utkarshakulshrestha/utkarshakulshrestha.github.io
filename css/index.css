@@ -87,7 +87,7 @@ header .navbar.animate {
 }
 
 #hero .subtitle {
-    font-size: clamp(12px, 3vw, 14px);
+    font-size: clamp(14px,5vw,16px);
     opacity: 0.6;
 }
 
