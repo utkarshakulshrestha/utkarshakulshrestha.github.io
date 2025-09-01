@@ -129,9 +129,9 @@ params:
     enable: true
     intro: "Hey there! I'm"
     title: "Utkarsha Kulshrestha"
-    subtitle: "Youngest Senior Consultant at Ernst & Young"
+    subtitle: "MBA Candidate at Carnegie Mellon University"
     content: "A multi-skilled, result-oriented professional with a good track record of managing multiple projects under strict timelines and branding constraints. I’m more than just a Technical Consultant, I have entrepreneurial ambitions and a profound enthusiasm for technology and startups. I see technology as a powerful force for positive change and my role in it extends beyond coding. I aim to contribute to the dynamic tech landscape, push the limits of innovation, and help shape the future."
-    image: /images/FinUk.png
+    image: /images/UtkarshaCMU.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -157,7 +157,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/Aboutme.png
+    image: /images/ukpp.png
     content: |-
       I am a Technical Senior Consultant with a passion for Automation & Business. My background in computer science and engineering has fueled a strong interest in the intersection of technology and management.
 
@@ -206,12 +206,18 @@ params:
       - job: "Senior Consultant"
         company: "EY"
         companyUrl: "https://www.ey.com/en_gl/services/consulting"
-        date: "Jul 2024 - present"
+        date: "Jul 2024 - Jul 2025"
         featuredLink:
           enable: false
           name: "About EY"
           url: "https://www.ey.com/en_gl/services/consulting"
-        content: "I am currently working as a senior consultant at EY in Gurugram, India. I am currently working on a project that will be used to help people mitigate the risk in the Power & Utilities sector."
+        content: |
+         Ernst & Young (EY GDS) — January 2021 – July 2025
+         -Senior Consultant (Promoted 4 times in 4 years)
+         - Rose rapidly from Associate Consultant I → Associate Consultant II → Consultant I → Consultant II → Senior Consultant, earning 4 promotions in 4 years, one of the fastest progressions at EY GDS.
+         - Product Execution & Delivery: Promoted as the youngest Senior Consultant at EY GDS for leading high-impact programs across the energy sector, consistently exceeding delivery targets. Earned seven Excellence Awards and the Client Appreciation.
+         - Automation & Market Strategy: Led a critical project in the energy sector by applying deep functional knowledge of customer choice programs and device management. Drove process analysis, innovative solutions, and a scalable automation strategy.
+         - AI-Powered Business Transformation: Pioneered the use of Generative AI (GenAI) to create end-to-end functional design documents for a Fortune 500 client, streamlining requirements gathering, accelerating documentation by 40%, and improving cross-team collaboration between business and technical stakeholders.
 
       - job: "Consultant-1"
         company: "EY"
@@ -311,16 +317,17 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      # - title: "Master of Business Administration"
-      #   school:
-      #     name: "University of California, Berkeley"
-      #     url: "https://example.org"
-      #   date: "2013 - 2015"
-      #   GPA: "3.8 out of 5.0"
-      #   content: |-
-          # Extracurricular Activities
-          #   - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Master of Business Administration"
+        school:
+          name: "Carnegie Mellon University - Tepper School of Business"
+          url: "https://www.cmu.edu/tepper/index.html"
+        date: "2025 - 2027"
+        # GPA: "3.8 out of 5.0"
+        content: |-
+          Extracurricular Activities
+          - Concentrations: Strategy, Business Technologies, Entrepreneurship, and AI in Business
+          - Memberships: Business & Technology Club, Design & Business Club, Tepper Women in Business
+          - Honors: Forte Fellow
       - title: "Bachelor of Technology in Computer Science & Engineering"
         school:
           name: "JECRC University"
