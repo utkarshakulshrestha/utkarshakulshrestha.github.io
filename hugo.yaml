@@ -157,7 +157,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/ukpp.png
+    image: /images/aboutmeimg.png
     content: |-
       I am a Technical Senior Consultant with a passion for Automation & Business. My background in computer science and engineering has fueled a strong interest in the intersection of technology and management.
 
