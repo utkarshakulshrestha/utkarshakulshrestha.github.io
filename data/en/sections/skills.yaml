@@ -1,0 +1,40 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+
+# Your Skills - PM focused (logos removed to avoid missing image errors)
+skills:
+- name: Product Roadmapping
+  summary: "Define product vision, prioritize features using frameworks like RICE and MoSCoW, and align roadmaps with business objectives."
+
+- name: Customer Discovery
+  summary: "Conduct user interviews, surveys, and market research to identify pain points and validate product hypotheses."
+
+- name: User Research
+  summary: "Design and execute usability studies, analyze user behavior, and translate insights into actionable product decisions."
+
+- name: A/B Testing
+  summary: "Design experiments, analyze results statistically, and make data-driven decisions to optimize product features."
+
+- name: Agile & Scrum
+  summary: "Lead sprint planning, backlog grooming, and retrospectives. Experience managing cross-functional teams in agile environments."
+
+- name: Data Analysis
+  summary: "Proficient in SQL, Python, and analytics tools. Define KPIs, build dashboards, and derive insights from product metrics."
+
+- name: Stakeholder Management
+  summary: "Align diverse stakeholders, present to C-suite executives, and manage competing priorities across teams."
+
+- name: Go-to-Market Strategy
+  summary: "Develop launch plans, competitive positioning, and pricing strategies for new products and features."
+
+- name: Wireframing & Prototyping
+  summary: "Create wireframes and interactive prototypes using Figma to communicate product vision and gather early feedback."
+  url: "https://www.figma.com/"
+
+- name: Technical Skills
+  summary: "Python, SQL, JIRA, Confluence, Selenium, APIs. Strong technical foundation to collaborate effectively with engineering."

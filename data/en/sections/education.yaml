@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html
+  enable: true
+  weight: 4
+  showOnNavbar: true
+
+degrees:
+- name: Master of Business Administration
+  icon: fa-graduation-cap
+  timeframe: 2025-2027
+  institution:
+    name: Carnegie Mellon University - Tepper School of Business
+    url: "https://www.cmu.edu/tepper/"
+  takenCourses:
+    showGrades: false
+    collapseAfter: 3
+    courses:
+    - name: Product Management
+    - name: Design Thinking
+    - name: Data-Driven Decision Making
+    - name: Digital Transformation
+    - name: Strategy
+    - name: Business Technologies
+  extracurricularActivities:
+  - "Forté Fellow & Roger J. and Elizabeth Darcie Corbin Fellowship recipient"
+  - "Business & Technology Club, Design & Business Club, Tepper Women in Business"
+  customSections:
+  - name: Concentrations
+    content: Strategy, Business Technologies, Entrepreneurship, AI in Business
+
+- name: Bachelor of Technology in Computer Science
+  icon: fa-university
+  timeframe: 2016-2020
+  institution:
+    name: JECRC University
+    url: "https://jecrcuniversity.edu.in/"
+  grade:
+    scale: GPA
+    achieved: 3.6
+    outOf: 4.0
+  extracurricularActivities:
+  - "Microsoft Student Partner: Trained 2,000+ students in cloud technologies"
+  - "National Hackathon Winner"
+  - "Microsoft Imagine Cup 2018 Co-Lead (India)"

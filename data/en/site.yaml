@@ -1,0 +1,13 @@
+# Copyright Notice
+copyright: © 2025 Utkarsha Kulshrestha. All rights reserved.
+
+# Meta description for your site - helps search engines find your site
+description: Product Manager | MBA Candidate at CMU Tepper | Building products that solve real customer problems
+
+# Specify OpenGraph Headers
+openGraph:
+  title: Utkarsha Kulshrestha - Product Manager
+  type: website
+  description: Aspiring Product Manager with 4+ years at EY. MBA @ CMU Tepper. Passionate about customer discovery, data-driven decisions, and building delightful products.
+  image: images/UtkarshaCMU.png
+  url: https://utkarshakulshrestha.github.io

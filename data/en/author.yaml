@@ -1,0 +1,21 @@
+# Author information
+name: "Utkarsha Kulshrestha"
+nickname: "Utkarsha"
+# greeting message before your name
+greeting: "Hi, I'm"
+image: "images/author/utkarsha.png"
+
+# Contact information for the footer
+contactInfo:
+  email: "utkarshakulshrestha@gmail.com"
+  github: utkarshakulshrestha
+  linkedin: utkarshak
+
+# Summary about what you do - displayed as rotating text
+summary:
+  - I am an Aspiring Product Manager
+  - I am an MBA @ CMU Tepper
+  - I build products that solve real problems
+  - I led award-winning teams at EY
+  - I love customer discovery & user research
+  - I'm seeking PM internships for Summer 2026

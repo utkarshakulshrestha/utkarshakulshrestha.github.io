@@ -1,0 +1,63 @@
+# section information
+section:
+  name: Experience
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+
+# Your experiences (logos removed to avoid missing image errors)
+experiences:
+- company:
+    name: Ernst & Young (EY)
+    url: "https://www.ey.com/en_gl/services/consulting"
+    location: India & Global
+    overview: EY is a global professional services firm providing consulting, assurance, tax, and advisory services to Fortune 500 clients worldwide.
+  positions:
+  - designation: Senior Consultant – Product & Automation
+    start: Jan 2021
+    responsibilities:
+    - "**Product Leadership:** Pioneered GenAI-powered documentation system for Fortune 500 client, accelerating requirements gathering by 40% through deep customer discovery and iterative prototyping"
+    - "**Recognition:** Promoted as youngest Senior Consultant; earned 7 merit awards and EY Consulting Superstar 2024 (top among 50,000 employees)"
+    - "**Strategy:** Shaped product roadmap by partnering with C-suite to prioritize automation initiatives based on customer value and business outcomes"
+
+  - designation: Consultant – Product Delivery
+    start: Jul 2022
+    end: Dec 2023
+    responsibilities:
+    - "Led cross-functional team of 6 to deliver international utilities platform: 472 features, 9,000 test cases, saving 1,447 manual hours"
+    - "Drove 78% increase in test coverage through data-driven automation strategy and continuous user feedback loops"
+
+  - designation: Associate Consultant – Product Manager
+    start: Jan 2021
+    end: Jun 2022
+    responsibilities:
+    - "**0→1 Product:** Built award-winning Automation Testing product from scratch: led 20-member team, defined product vision, conducted market research, managed stakeholder alignment"
+    - "**Awards:** Won North American Software Testing Award 2022 and EY Innovation Award; reduced manual effort by 72% with 3,000+ automated scripts"
+    - "**PMF:** Established product-market fit through customer interviews, competitive analysis, and iterative development"
+
+- company:
+    name: K21 Academy
+    url: "https://k21academy.com/"
+    location: Remote
+    overview: K21 Academy is an ed-tech platform providing cloud computing and DevOps training programs.
+  positions:
+  - designation: Business Development Associate
+    start: Jul 2020
+    end: Dec 2020
+    responsibilities:
+    - "Drove $60K revenue in 6 months by identifying target customer segments, validating pain points, and delivering tailored solutions"
+    - "Conducted customer discovery interviews to understand buyer personas and refine go-to-market strategy"
+
+- company:
+    name: ISRO (Indian Space Research Organisation)
+    url: "https://www.isro.gov.in/"
+    location: India
+    overview: ISRO is India's national space agency responsible for space exploration and satellite technology.
+  positions:
+  - designation: Research Intern
+    start: Jan 2020
+    end: May 2020
+    responsibilities:
+    - "Built Python-based GPS API integration with mapping systems to enhance satellite tracking accuracy"
+    - "Collaborated with scientists to translate technical requirements into functional specifications"

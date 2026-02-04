@@ -1,0 +1,55 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Product Strategy
+  filter: "product-strategy"
+- name: Technical
+  filter: "technical"
+- name: Case Study
+  filter: "case-study"
+
+# your projects (logos removed to avoid missing image errors)
+projects:
+- name: AI Product Strategy Case Study
+  role: Product Strategist
+  timeline: "2025"
+  url: "#"
+  summary: Analyzed how enterprises can integrate GenAI into existing workflows. Developed product recommendations for a Fortune 500 client including feature prioritization framework, MVP scope, and success metrics. Presented to C-suite stakeholders.
+  tags: ["product-strategy", "case-study", "GenAI", "enterprise"]
+
+- name: SeleniumGPT – AI Testing Platform
+  role: Product Developer
+  timeline: "2024 - Present"
+  repo: https://github.com/utkarshakulshrestha/SeleniumTestGPT
+  summary: Built 0→1 product integrating Selenium, LangChain, and GPT-4 for automated testing. Conducted user research with QA teams, iterated on UX based on feedback, achieved 30% reduction in manual testing effort.
+  tags: ["technical", "Python", "AI/ML", "product-strategy"]
+
+- name: Smart Home Automation Platform
+  role: Product Designer & Developer
+  timeline: "2023"
+  repo: https://github.com/utkarshakulshrestha/Smart_Motion_MQTT
+  summary: Designed IoT product for motion-based home automation. Defined user personas, created wireframes, built MVP with Node-MCU and Arduino. Implemented ML-based anomaly detection for enhanced security.
+  tags: ["technical", "IoT", "MVP", "user-research"]
+
+- name: EY Automation Platform (Award-Winning)
+  role: Product Manager
+  timeline: "2021 - 2022"
+  url: "#"
+  summary: Led 20-member team to build enterprise automation platform from scratch. Conducted customer discovery, defined product vision, and managed full product lifecycle. Won North American Software Testing Award 2022.
+  tags: ["product-strategy", "case-study", "enterprise", "award-winning"]
+
+- name: GenAI Documentation System
+  role: Product Lead
+  timeline: "2024"
+  url: "#"
+  summary: Pioneered GenAI-powered documentation system for Fortune 500 client. Accelerated requirements gathering by 40% through deep customer discovery and iterative prototyping with stakeholders.
+  tags: ["product-strategy", "GenAI", "enterprise", "innovation"]

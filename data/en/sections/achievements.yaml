@@ -1,0 +1,27 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 6
+  showOnNavbar: true
+
+# Your achievements (images removed to avoid missing image errors - add back later with actual images)
+achievements:
+- title: EY Consulting Superstar 2024
+  summary: Selected among 50,000 employees for exceptional product delivery, innovation, and client impact.
+
+- title: North American Software Testing Award 2022
+  summary: Industry recognition for building award-winning automation product that reduced manual effort by 72%.
+
+- title: Forté Fellow - CMU Tepper
+  summary: Prestigious fellowship awarded to exceptional women pursuing MBA programs in business.
+
+- title: 17+ Excellence Awards at EY
+  summary: Recognized for project excellence, team leadership, innovation, and outstanding client impact.
+
+- title: Microsoft Student Partner
+  summary: Trained 2,000+ students in cloud technologies, organized events with Microsoft executives.
+
+- title: National Hackathon Winner
+  summary: Won national-level hackathon and co-led Microsoft Imagine Cup 2018 (India).

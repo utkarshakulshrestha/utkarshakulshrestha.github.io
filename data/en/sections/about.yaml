@@ -1,0 +1,68 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Aspiring Product Manager
+# your company information
+company:
+  name: MBA @ CMU Tepper
+  url: "https://www.cmu.edu/tepper/"
+
+# your resume - file path relative to "static" directory
+resourceLinks:
+- title: "Download Resume"
+  url: "files/Utkarsha_PM_Resume.pdf"
+
+# a summary about you
+summary: "I'm a product-minded leader transitioning from consulting to Product Management. At EY, I discovered my passion for building products when I led a 20-member team to create an award-winning automation platform from scratch—defining the vision, conducting customer discovery, and iterating based on user feedback. What drives me: understanding the 'why' behind user behavior, translating insights into features, and measuring impact with data. I believe great products come from deep empathy + rigorous experimentation."
+
+# your social links
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mailto:utkarshakulshrestha@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/utkarshakulshrestha"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/utkarshak/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://x.com/utkarshakulshr1"
+
+# Show your badges - certifications and soft skills
+badges:
+- type: certification
+  name: AWS Cloud Practitioner
+  url: "#"
+  badge: "https://d1.awsstatic.com/training-and-certification/certification-badges/AWS-Certified-Cloud-Practitioner_badge.634f8a21af2e0e956ed8905a72366146ba22b74c.png"
+
+- type: certification
+  name: Microsoft Azure Fundamentals
+  url: "#"
+  badge: "https://images.credly.com/size/680x680/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png"
+
+- type: soft-skill-indicator
+  name: Product Strategy
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Customer Discovery
+  percentage: 88
+  color: green
+
+- type: soft-skill-indicator
+  name: Cross-functional Leadership
+  percentage: 92
+  color: orange
